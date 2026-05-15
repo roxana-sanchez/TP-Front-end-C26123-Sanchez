@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href= "https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+  </head>
+  <body>
+     <header>
+    <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div> 
+    
+    <nav class="header-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+                       
+            <li>
+                <a href="./form.html">Contacto</a>
+            </li>
+        </ul>
+    
+    </nav>
+    </header>
+    <main>
+      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+    
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form
+      class="form-contacto"
+      action="https://formspree.io/f/xpqbawob"
+      method="POST"
+    >
+      <div>
+        <label>
+          Nombre:
+          <input class= "input-form" type="nombre" name="nombre" />
+        </label>
+        <label>
+          Correo electrónico:
+          <input class="input-form" type="email" name="email" />
+        </label>
+        </div>
+
+        <div>
+       
+        
+          Mensaje:
+          <textarea class="input-form" name="message"></textarea>
+        </label>
+        </div>
+      
+      <!-- your other form fields go here -->
+      <button type="submit" class="btn">Send</button>
+    </form>
+    </main> 
+  </body>
+   <footer>
+        <p class="footer footer-parrafo">Sitio realizado por @Salva (Roxana Sanchez)</p>
+        <nav>
+            <ul class="footer-list">
+                <li>
+                    <img src="../img/whatsapp-1.png" alt="Icono para Whatsapp">
+                </li>
+                
+                <li>
+                    <img src="../img/insta.png" alt="Icono para Instagram">
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</html>
